@@ -1,0 +1,41 @@
+body{
+background-image:linear-gradient(to right, #00467F, #A5CC82);  
+
+letter-spacing: 4px;
+color: white;
+}
+#ball{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:#919d93;
+    border:1px solid black;
+    position: relative;
+}
+
+#container{
+    height:400px;
+    width:400px;
+    border: 2px solid black;
+    padding: 0px;
+    background-image:radial-gradient( #00467F, #A5CC82);  
+
+    margin: auto;
+    margin-top: 5%;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 40px;
+}
+
+#intructions{
+    height: 150px;
+    width:150px;
+    position: fixed;
+    right:5%;
+    top:10%;
+    padding: 10px;
+    border: 2px dashed black;
+}
